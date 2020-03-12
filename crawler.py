@@ -1,7 +1,6 @@
 import requests
 import csv
 from bs4 import BeautifulSoup
-import pandas as pd
 
 f = csv.writer(open('americanas.csv', 'w'))
 f.writerow(['Logradouro',
